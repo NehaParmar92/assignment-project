@@ -14,7 +14,6 @@ import { AppComponent } from './app.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { EventDetailsComponent } from './event-details/event-details.component';
 import { EventFormComponent } from './event-form/event-form.component';
-// import { CalendarViewComponent } from './calendar-view/calendar-view.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { EventFormComponent } from './event-form/event-form.component';
     EventListComponent,
     EventDetailsComponent,
     EventFormComponent,
-    // CalendarViewComponent
   ],
   imports: [
     BrowserModule,
