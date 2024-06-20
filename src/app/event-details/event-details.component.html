@@ -1,0 +1,8 @@
+<div *ngIf="event" class='displaycss'>
+    <h2>{{ event.title }}</h2>
+    <p>Date: {{ event.date | date }}</p>
+    <p>Location: {{ event.location }}</p>
+    <p>Description: {{ event.description }}</p>
+    <button mat-raised-button color="primary" (click)="goBack()">Back</button>
+  </div>
+  

@@ -1,0 +1,6 @@
+<nav>
+  <a mat-button [ngClass]="{'active-link': isLinkActive('/events')}" routerLink="/events">Events</a>
+  <a mat-button [ngClass]="{'active-link': isLinkActive('/events/new')}" routerLink="/events/new">Create Event</a>
+  <!-- <a mat-button [ngClass]="{'active-link': isLinkActive('/calendar')}" routerLink="/calendar">Calendar View</a> -->
+</nav>
+<router-outlet></router-outlet>
